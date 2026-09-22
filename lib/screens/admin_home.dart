@@ -46,7 +46,7 @@ class _AdminHomeState extends State<AdminHome> {
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(
-        title: const Text('Shomman • Welfare dashboard'),
+        title: const Text('Shomman • Welfare Dashboard'),
         actions: [
           if (wide)
             Padding(
