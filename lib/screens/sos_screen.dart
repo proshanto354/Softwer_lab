@@ -41,7 +41,7 @@ class _SosScreenState extends State<SosScreen> {
   @override
   Widget build(BuildContext context) => Scaffold(
     backgroundColor: AppColors.background,
-    appBar: AppBar(title: const Text('SOS emergency')),
+    appBar: AppBar(title: const Text('SOS Emergency Help')),
     body: SafeArea(
       child: Center(
         child: SingleChildScrollView(
