@@ -50,7 +50,7 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
   Widget build(BuildContext context) => Scaffold(
     backgroundColor: AppColors.background,
     appBar: AppBar(
-      title: const Text('Complete your profile'),
+      title: const Text('Complete Your Shomman Profile'),
       actions: [
         IconButton(
           tooltip: 'Logout',
