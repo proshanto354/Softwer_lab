@@ -136,14 +136,14 @@ class _LoginScreenState extends State<LoginScreen> {
                         }),
                         const SizedBox(height: 24),
                         Text(
-                          _signUp ? 'Create your account' : 'Welcome back',
+                          _signUp ? 'Create your account' : 'Welcome back to Shomman',
                           style: Theme.of(context).textTheme.headlineSmall,
                         ),
                         const SizedBox(height: 4),
                         Text(
                           _signUp
-                              ? 'Sign up to report, track and get help for an elderly person.'
-                              : 'Log in to continue keeping your elders safe.',
+                              ? 'Create your account to access Shomman services and support.'
+                              : 'Log in to continue using Shomman and support our elders.',
                           style: const TextStyle(color: AppColors.textSecondary),
                         ),
                         const SizedBox(height: 24),
